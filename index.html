@@ -14,7 +14,7 @@
         const cont = document.querySelector("#container")
 
         window.addEventListener("load",async ()=>{
-            let data = fetch("./static",{
+            let data = fetch("/repos/Vinayrk2/checkRepo.github.io/contents/static",{
   credentials: "same-origin",
 }).then((res)=>res.text()).then((response)=>{
                 console.log(response)
